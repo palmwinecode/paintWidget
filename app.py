@@ -66,7 +66,7 @@ class MyPaintApp(App):
         return parent
     
     # Function to clear canvas
-    def clear_canvas(self, qqq):
+    def clear_canvas(self, obj):
         self.painter.canvas.clear()
 
 # Run App
